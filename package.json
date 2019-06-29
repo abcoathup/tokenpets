@@ -1,0 +1,43 @@
+{
+  "name": "tokenpets",
+  "version": "1.0.0",
+  "description": "TokenPets",
+  "main": "index.js",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-mocha-no-only": "^1.1.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "openzeppelin-test-helpers": "^0.4.0",
+    "solhint": "^2.1.0",
+    "truffle": "^5.0.25",
+    "truffle-hdwallet-provider": "^1.0.12"
+  },
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:sol",
+    "lint:fix": "npm run lint:js:fix",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:sol": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcoathup/tokenpets.git"
+  },
+  "keywords": [],
+  "author": "abcoathup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abcoathup/tokenpets/issues"
+  },
+  "homepage": "https://github.com/abcoathup/tokenpets#readme"
+}

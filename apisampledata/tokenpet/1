@@ -1,0 +1,16 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Pet", 
+      "value": "Penguin"
+    },
+    {
+      "trait_type": "Era", 
+      "value": "Alpha"
+    }
+  ], 
+  "description": "Token Pet.", 
+  "external_url": "https://github.com/abcoathup/tokenpets", 
+  "image": "http://openmoji.org/data/color/svg/1F427.svg", 
+  "name": "Token Pet"
+}
